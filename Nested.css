@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.text{
+    /* width: 30px; */
+    /* box-sizing: 20px; */
+    margin:20px;
+    padding: 20px;
+    width: 50vw;
+    text-align: left;
+    border: 2px solid red;
+}
+.text p{
+    font-size: 20px;
+    /* font-weight: ; */
+
+}
+.image{
+    border: 2px solid yellow;
+    text-align:center
+}
+.image img{
+    width: 200px;
+
+}
