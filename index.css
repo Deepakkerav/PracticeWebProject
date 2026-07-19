@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px
+}
+.leftHeader{
+    display: flex;
+    /* background-color: yellow; */
+    /* width: 20 */
+    /* padding: ; */
+
+
+}
+.Medium{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+.searchIcon{
+    padding-left: 10px;
+    /* font-size: 20px; */
+}
+.searchIconImage{
+    width: 13px;
+    /* border: 2px solid black; */
+    /* border-radius: 20%; */
+    /* font-display: block; */
+
+}
+.searchIcon button{
+   border-radius: 2px;
+   font-size: 20px;
+   border-radius: 10px 0 0 10px;
+   border: none;
+}
+.searchIcon input{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-size: large; */
+    /* border: 20px solid yellow; */
+    /* border-radius: 2px; */
+    border: none;
+    background-color: rgb(255, 254, 255);
+    font-size: 20px;
+    /* width: 20px; */
+    font-family: serif;
+    border-radius: 0 20px 20px 0;
+    /* height: 10px; */
+}
+input[type="search"]:focus{
+    outline: none;
+}
+input[type="search"]::-webkit-search-cancel-button{
+    display: none;
+}
+.accountImg {
+   width: 20px;
+}
+.rightHeader{
+    /* text-decoration: none; */
+    margin: 0 20px 0 0;
+    font-weight: bold;
+}
+.rightHeadera{
+    /* text-transform: none; */
+    text-decoration: none;
+    color: black;
+}
+.getApp{
+    color: white;
+    background-color: black;
+    padding: 8px;
+    border-radius: 19px;
+}
+.signUp{
+    padding: 5px;
+    background-color: green;
+    border-radius: 13px;
+    color: white;
+}
+.accountImg{
+    width:20px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: yellow; */
+    margin: 20px;
+    /* behavior: none; */
+    /* width: 80%; */
+}
+.computerImg,.innerContainer,.text{
+    width: 80%;
+    margin-top: 20px;
+
+}
+.Oliast{
+    display: flex;
+    /* justify-content:; */
+    align-items: center;
+    list-style: none;
+    margin-top: 10px;
+    font-size: small;
+     /* flex-direction: ro; */
+}
+.Oliast > li{
+
+    margin-left: 8px;
+    
+}
+li > button{
+    border-radius: 20px;
+    border: none;
+}
+strong{
+    display: inline;
+}
+.box{
+    /* border: 2px solid yellow; */
+    /* box-sizing:content-box; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid rgb(195, 183, 183);
+    border-bottom: 2px solid rgb(219, 210, 210);
+    padding: 20px;
+
+}
+.a{
+    padding-top: 8px;
+    /* display: inline; */
+}
+.boxp{
+    font-size: small;
+}
+@media (max-width:800px){
+  .rightHeader{
+     display: none;
+  }
+
+
+}
