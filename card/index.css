@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+.image{
+  width: auto;
+  height: 80px;
+  border: 2px solid yellow;
+  border-radius: 20%;
+}
+.junior{
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+
+}
+.box{
+  /* display: flex; */
+  /* flex-direction: row; */
+   width: 80%;
+   border: 2px solid black;
+   margin: 5px;
+   padding: 20px;
+   border-radius: 20px;
+}
+.row{
+  padding:20px;
+  /* text-aligh */
+  display:flex;
+
+}
+.pare{
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+/* // Senior devlopwer */
+.img{
+  width:250px;
+  height: auto;
+  border-radius: 30%;
+}
+.star{
+  width: 100px;
+  
+}
+.senior{
+  display: flex;
+  margin: 20px;
+}
+.intro{
+  margin: 10px;
+  background-color: black;
+  color: wheat;
+  border-radius: 2px;
+}
+
+
+
+
